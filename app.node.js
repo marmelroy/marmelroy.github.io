@@ -65,7 +65,7 @@ module.exports =
 
   var _react2 = _interopRequireDefault(_react);
 
-  var _reactDom = __webpack_require__(21);
+  var _reactDom = __webpack_require__(22);
 
   var _reactDom2 = _interopRequireDefault(_reactDom);
 
@@ -75,25 +75,25 @@ module.exports =
 
   var _coreLocation2 = _interopRequireDefault(_coreLocation);
 
-  var _componentsLayout = __webpack_require__(5);
+  var _componentsLayout = __webpack_require__(6);
 
   var _componentsLayout2 = _interopRequireDefault(_componentsLayout);
 
   var routes = {
     '/404': function _() {
-      return __webpack_require__(8);
-    }, '/500': function _() {
       return __webpack_require__(9);
-    }, '/about': function about() {
+    }, '/500': function _() {
       return __webpack_require__(10);
-    }, '/blog': function blog() {
+    }, '/apps': function apps() {
       return __webpack_require__(11);
-    }, '/blog/test-article-one': function blogTestArticleOne() {
+    }, '/blog': function blog() {
       return __webpack_require__(12);
-    }, '/blog/test-article-two': function blogTestArticleTwo() {
+    }, '/blog/test-article-one': function blogTestArticleOne() {
       return __webpack_require__(13);
-    }, '/': function _() {
+    }, '/blog/test-article-two': function blogTestArticleTwo() {
       return __webpack_require__(14);
+    }, '/': function _() {
+      return __webpack_require__(15);
     } }; // Auto-generated on build. See tools/lib/routes-loader.js
 
   var route = function route(path, callback) {
@@ -238,15 +238,15 @@ module.exports =
 
   var _fbjsLibExecutionEnvironment = __webpack_require__(4);
 
-  var _historyLibCreateBrowserHistory = __webpack_require__(18);
+  var _historyLibCreateBrowserHistory = __webpack_require__(19);
 
   var _historyLibCreateBrowserHistory2 = _interopRequireDefault(_historyLibCreateBrowserHistory);
 
-  var _historyLibCreateMemoryHistory = __webpack_require__(19);
+  var _historyLibCreateMemoryHistory = __webpack_require__(20);
 
   var _historyLibCreateMemoryHistory2 = _interopRequireDefault(_historyLibCreateMemoryHistory);
 
-  var _historyLibUseQueries = __webpack_require__(20);
+  var _historyLibUseQueries = __webpack_require__(21);
 
   var _historyLibUseQueries2 = _interopRequireDefault(_historyLibUseQueries);
 
@@ -263,6 +263,12 @@ module.exports =
 
 /***/ },
 /* 5 */
+/***/ function(module, exports) {
+
+  module.exports = require("react-retina-image");
+
+/***/ },
+/* 6 */
 /***/ function(module, exports, __webpack_require__) {
 
   /**
@@ -283,9 +289,9 @@ module.exports =
 
   var _react2 = _interopRequireDefault(_react);
 
-  __webpack_require__(15);
+  __webpack_require__(16);
 
-  var _Navigation = __webpack_require__(7);
+  var _Navigation = __webpack_require__(8);
 
   var _Navigation2 = _interopRequireDefault(_Navigation);
 
@@ -308,7 +314,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 6 */
+/* 7 */
 /***/ function(module, exports, __webpack_require__) {
 
   /**
@@ -343,7 +349,7 @@ module.exports =
 
   var _react2 = _interopRequireDefault(_react);
 
-  __webpack_require__(16);
+  __webpack_require__(17);
 
   var _coreLocation = __webpack_require__(3);
 
@@ -425,7 +431,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 7 */
+/* 8 */
 /***/ function(module, exports, __webpack_require__) {
 
   /**
@@ -446,9 +452,9 @@ module.exports =
 
   var _react2 = _interopRequireDefault(_react);
 
-  __webpack_require__(17);
+  __webpack_require__(18);
 
-  var _Link = __webpack_require__(6);
+  var _Link = __webpack_require__(7);
 
   var _Link2 = _interopRequireDefault(_Link);
 
@@ -508,7 +514,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 8 */
+/* 9 */
 /***/ function(module, exports, __webpack_require__) {
 
   /**
@@ -573,7 +579,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 9 */
+/* 10 */
 /***/ function(module, exports, __webpack_require__) {
 
   /**
@@ -644,7 +650,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 10 */
+/* 11 */
 /***/ function(module, exports, __webpack_require__) {
 
   /**
@@ -673,6 +679,10 @@ module.exports =
 
   var _react2 = _interopRequireDefault(_react);
 
+  var _reactRetinaImage = __webpack_require__(5);
+
+  var _reactRetinaImage2 = _interopRequireDefault(_reactRetinaImage);
+
   var _default = (function (_Component) {
     _inherits(_default, _Component);
 
@@ -691,12 +701,9 @@ module.exports =
           _react2['default'].createElement(
             'h1',
             null,
-            'About Us'
-          ),
-          _react2['default'].createElement(
-            'p',
-            null,
-            'Coming soon.'
+            'Freelancer',
+            _react2['default'].createElement('br', null),
+            _react2['default'].createElement('br', null)
           )
         );
       }
@@ -709,7 +716,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 11 */
+/* 12 */
 /***/ function(module, exports, __webpack_require__) {
 
   /**
@@ -774,7 +781,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 12 */
+/* 13 */
 /***/ function(module, exports, __webpack_require__) {
 
   /**
@@ -839,7 +846,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 13 */
+/* 14 */
 /***/ function(module, exports, __webpack_require__) {
 
   /**
@@ -904,7 +911,7 @@ module.exports =
   module.exports = exports['default'];
 
 /***/ },
-/* 14 */
+/* 15 */
 /***/ function(module, exports, __webpack_require__) {
 
   /**
@@ -913,25 +920,33 @@ module.exports =
    * Copyright (c) Konstantin Tarkus (@koistya) | MIT license
    */
 
-  "use strict";
+  'use strict';
 
-  Object.defineProperty(exports, "__esModule", {
+  Object.defineProperty(exports, '__esModule', {
     value: true
   });
 
-  var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+  var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
 
-  var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+  var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
 
-  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
-  function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+  function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
 
-  function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+  function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
   var _react = __webpack_require__(1);
 
   var _react2 = _interopRequireDefault(_react);
+
+  var _reactRetinaImage = __webpack_require__(5);
+
+  var _reactRetinaImage2 = _interopRequireDefault(_reactRetinaImage);
+
+  var _reactLiteSpace = __webpack_require__(23);
+
+  var _reactLiteSpace2 = _interopRequireDefault(_reactLiteSpace);
 
   var _default = (function (_Component) {
     _inherits(_default, _Component);
@@ -939,42 +954,72 @@ module.exports =
     function _default() {
       _classCallCheck(this, _default);
 
-      _get(Object.getPrototypeOf(_default.prototype), "constructor", this).apply(this, arguments);
+      _get(Object.getPrototypeOf(_default.prototype), 'constructor', this).apply(this, arguments);
     }
 
     _createClass(_default, [{
-      key: "render",
+      key: 'render',
       value: function render() {
-        return _react2["default"].createElement(
-          "div",
+        return _react2['default'].createElement(
+          'div',
           null,
-          _react2["default"].createElement(
-            "div",
-            { "class": "icon" },
-            _react2["default"].createElement("img", { src: "http://marmelroy.github.io/icon.png", "class": "icon" })
-          ),
-          _react2["default"].createElement(
-            "h1",
+          _react2['default'].createElement(
+            'h1',
             null,
-            "Roy Marmelstein",
-            _react2["default"].createElement("br", null),
-            _react2["default"].createElement("br", null),
-            "Builds and designs iOS apps. ",
-            _react2["default"].createElement("br", null),
-            "Runs Swift open source projects. ",
-            _react2["default"].createElement("br", null),
-            "Speaks in conferences. ",
-            _react2["default"].createElement("br", null),
-            "Writes on Medium. ",
-            _react2["default"].createElement("br", null),
-            _react2["default"].createElement("br", null),
-            "Say ",
-            _react2["default"].createElement(
-              "a",
-              { href: "mailto:hello@roysapps.com" },
-              "hi"
+            'Roy Marmelstein',
+            _react2['default'].createElement('br', null),
+            _react2['default'].createElement('br', null)
+          ),
+          _react2['default'].createElement(
+            'h2',
+            null,
+            'Builds and designs iOS apps. ',
+            _react2['default'].createElement('br', null),
+            _react2['default'].createElement(
+              'a',
+              { href: 'https://itunes.apple.com/app/zenly-locator-realtime-tracker/id838848566' },
+              _react2['default'].createElement(_reactRetinaImage2['default'], { src: 'zenly.png', alt: 'Zenly' })
             ),
-            "."
+            _react2['default'].createElement(
+              'a',
+              { href: 'https://itunes.apple.com/fr/app/lylo/id797050189' },
+              _react2['default'].createElement(_reactRetinaImage2['default'], { src: 'lylo.png', alt: 'Lylo' })
+            ),
+            _react2['default'].createElement(
+              'a',
+              { href: 'https://itunes.apple.com/app/bonjourbonjour/id451134020' },
+              _react2['default'].createElement(_reactRetinaImage2['default'], { src: 'bjrbjr.png', alt: 'BonjourBonjour' })
+            ),
+            _react2['default'].createElement(
+              'a',
+              { href: 'http://spaceca.st' },
+              _react2['default'].createElement(_reactRetinaImage2['default'], { src: 'spacecast.png', alt: 'Spacecast' })
+            ),
+            _react2['default'].createElement(
+              'a',
+              { href: 'http://dash.watch' },
+              _react2['default'].createElement(_reactRetinaImage2['default'], { src: 'dashwatch.png', alt: 'Dash for Apple Watch' })
+            ),
+            _react2['default'].createElement(
+              'a',
+              { href: 'http://dash.watch' },
+              _react2['default'].createElement(_reactRetinaImage2['default'], { src: 'dashpower.png', alt: 'Dash Power - Monitor iPhone\'s battery life' })
+            ),
+            _react2['default'].createElement('br', null),
+            'Runs Swift open source projects. ',
+            _react2['default'].createElement('br', null),
+            'Speaks in conferences. ',
+            _react2['default'].createElement('br', null),
+            'Writes on Medium. ',
+            _react2['default'].createElement('br', null),
+            _react2['default'].createElement('br', null),
+            'Say ',
+            _react2['default'].createElement(
+              'a',
+              { href: 'mailto:hello@roysapps.com' },
+              'hello'
+            ),
+            '.'
           )
         );
       }
@@ -983,11 +1028,11 @@ module.exports =
     return _default;
   })(_react.Component);
 
-  exports["default"] = _default;
-  module.exports = exports["default"];
+  exports['default'] = _default;
+  module.exports = exports['default'];
 
 /***/ },
-/* 15 */
+/* 16 */
 /***/ function(module, exports, __webpack_require__) {
 
   exports = module.exports = __webpack_require__(2)();
@@ -1001,7 +1046,7 @@ module.exports =
 
 
 /***/ },
-/* 16 */
+/* 17 */
 /***/ function(module, exports, __webpack_require__) {
 
   exports = module.exports = __webpack_require__(2)();
@@ -1015,7 +1060,7 @@ module.exports =
 
 
 /***/ },
-/* 17 */
+/* 18 */
 /***/ function(module, exports, __webpack_require__) {
 
   exports = module.exports = __webpack_require__(2)();
@@ -1029,28 +1074,34 @@ module.exports =
 
 
 /***/ },
-/* 18 */
+/* 19 */
 /***/ function(module, exports) {
 
   module.exports = require("history/lib/createBrowserHistory");
 
 /***/ },
-/* 19 */
+/* 20 */
 /***/ function(module, exports) {
 
   module.exports = require("history/lib/createMemoryHistory");
 
 /***/ },
-/* 20 */
+/* 21 */
 /***/ function(module, exports) {
 
   module.exports = require("history/lib/useQueries");
 
 /***/ },
-/* 21 */
+/* 22 */
 /***/ function(module, exports) {
 
   module.exports = require("react-dom");
+
+/***/ },
+/* 23 */
+/***/ function(module, exports) {
+
+  module.exports = require("react-lite-space");
 
 /***/ }
 /******/ ]);
