@@ -74,9 +74,16 @@ h2{
     font-weight: 600;
 }
 
-a{
-    text-decoration: none;
-    color:#00ccf1;
+.Navigation-link {
+  padding: 0.5em 1em;
+  color: :#00ccf1;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    border-bottom: 3px solid $00ccf1;
+    color: $000000;
+  }
 }
 
 @media only screen and (min-device-width: 0px) and (max-device-width: 720px) {
