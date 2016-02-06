@@ -75,14 +75,13 @@ h2{
 }
 
 a {
-  padding: 0.5em 1em;
-  color: :#00ccf1;
+  color: #00ccf1;
   text-decoration: none;
   cursor: pointer;
 
   &:hover {
-    border-bottom: 3px solid $00ccf1;
-    color: $000000;
+    border-bottom: 3px solid #00ccf1;
+    color: #000000;
   }
 }
 
