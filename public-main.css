@@ -116,8 +116,8 @@ a{
 
 @media only screen and (min-device-width: 0px) and (max-device-width: 720px) {
     div #mobilehide {visibility:hidden;}
-    h1 {font-size: 23px; font-weight: 200;}
-    h2 {font-size: 18px; font-weight: 200;}
+    h1 {font-size: 24px;}
+    h2 {font-size: 24px;}
 }
 
 
