@@ -973,7 +973,7 @@ module.exports =
           _react2['default'].createElement(
             'h2',
             null,
-            'Builds and designs iOS apps',
+            'Builds and designs iOS apps :',
             _react2['default'].createElement('br', null),
             _react2['default'].createElement(
               'a',
@@ -985,6 +985,12 @@ module.exports =
               'a',
               { href: 'https://itunes.apple.com/fr/app/lylo/id797050189' },
               _react2['default'].createElement(_reactRetinaImage2['default'], { src: 'lylo.png', alt: 'Lylo' })
+            ),
+            _react2['default'].createElement(_reactLiteSpace2['default'], { width: '20' }),
+            _react2['default'].createElement(
+              'a',
+              { href: 'https://itunes.apple.com/app/bonjourbonjour/id451134020' },
+              _react2['default'].createElement(_reactRetinaImage2['default'], { src: 'bjrbjr.png', alt: 'BonjourBonjour' })
             ),
             _react2['default'].createElement(_reactLiteSpace2['default'], { width: '20' }),
             _react2['default'].createElement(
@@ -1038,9 +1044,7 @@ module.exports =
               'hello'
             ),
             '.'
-          ),
-          _react2['default'].createElement('br', null),
-          _react2['default'].createElement('br', null)
+          )
         );
       }
     }]);
