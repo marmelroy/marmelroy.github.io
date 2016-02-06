@@ -467,15 +467,6 @@ module.exports =
         { className: 'Navigation-item' },
         _react2['default'].createElement(
           'a',
-          { className: 'Navigation-link', href: '/', onClick: _Link2['default'].handleClick },
-          'Home'
-        )
-      ),
-      _react2['default'].createElement(
-        'li',
-        { className: 'Navigation-item' },
-        _react2['default'].createElement(
-          'a',
           { className: 'Navigation-link', href: 'mailto:hello@roysapps.com' },
           'Email'
         )
@@ -496,6 +487,15 @@ module.exports =
           'a',
           { className: 'Navigation-link', href: 'http://twitter.com/marmelroy' },
           'Twitter'
+        )
+      ),
+      _react2['default'].createElement(
+        'li',
+        { className: 'Navigation-item' },
+        _react2['default'].createElement(
+          'a',
+          { className: 'Navigation-link', href: 'http://fr.linkedin.com/pub/roy-marmelstein/27/365/2ba/' },
+          'LinkedIn'
         )
       ),
       _react2['default'].createElement(
@@ -980,35 +980,29 @@ module.exports =
               { href: 'https://itunes.apple.com/app/zenly-locator-realtime-tracker/id838848566' },
               _react2['default'].createElement(_reactRetinaImage2['default'], { src: 'zenly.png', alt: 'Zenly' })
             ),
-            _react2['default'].createElement(_reactLiteSpace2['default'], { width: '20' }),
+            _react2['default'].createElement(_reactLiteSpace2['default'], { width: '15' }),
             _react2['default'].createElement(
               'a',
               { href: 'https://itunes.apple.com/fr/app/lylo/id797050189' },
               _react2['default'].createElement(_reactRetinaImage2['default'], { src: 'lylo.png', alt: 'Lylo' })
             ),
-            _react2['default'].createElement(_reactLiteSpace2['default'], { width: '20' }),
+            _react2['default'].createElement(_reactLiteSpace2['default'], { width: '15' }),
             _react2['default'].createElement(
               'a',
               { href: 'https://itunes.apple.com/app/bonjourbonjour/id451134020' },
               _react2['default'].createElement(_reactRetinaImage2['default'], { src: 'bjrbjr.png', alt: 'BonjourBonjour' })
             ),
-            _react2['default'].createElement(_reactLiteSpace2['default'], { width: '20' }),
+            _react2['default'].createElement(_reactLiteSpace2['default'], { width: '15' }),
             _react2['default'].createElement(
               'a',
               { href: 'http://spaceca.st' },
               _react2['default'].createElement(_reactRetinaImage2['default'], { src: 'spacecast.png', alt: 'Spacecast' })
             ),
-            _react2['default'].createElement(_reactLiteSpace2['default'], { width: '20' }),
+            _react2['default'].createElement(_reactLiteSpace2['default'], { width: '15' }),
             _react2['default'].createElement(
               'a',
               { href: 'http://dash.watch' },
               _react2['default'].createElement(_reactRetinaImage2['default'], { src: 'dashwatch.png', alt: 'Dash for Apple Watch' })
-            ),
-            _react2['default'].createElement(_reactLiteSpace2['default'], { width: '20' }),
-            _react2['default'].createElement(
-              'a',
-              { href: 'http://dash.watch' },
-              _react2['default'].createElement(_reactRetinaImage2['default'], { src: 'dashpower.png', alt: 'Dash Power - Monitor iPhone\'s battery life' })
             ),
             _react2['default'].createElement('br', null),
             _react2['default'].createElement('br', null),
@@ -1064,7 +1058,7 @@ module.exports =
 
 
   // module
-  exports.push([module.id, "/**\n * React Static Boilerplate\n * https://github.com/koistya/react-static-boilerplate\n * Copyright (c) Konstantin Tarkus (@koistya) | MIT license\n */\n\n/**\n * React Static Boilerplate\n * https://github.com/koistya/react-static-boilerplate\n * Copyright (c) Konstantin Tarkus (@koistya) | MIT license\n */\n\n/*\n * Scaffolding\n * -------------------------------------------------------------------------- */\n\n/*\n * Typography\n * -------------------------------------------------------------------------- */\n\n/*\n * Media queries breakpoints\n * -------------------------------------------------------------------------- */\n\nhtml, body {\n  margin: 0;\n  padding: 0;\n  background-color: #ffffff;\n  color: #000000;\n  font-family: 'San Francisco Display',sans-serif;\n}\n\n.Layout {\n  margin: 0 auto;\n}\n\n@media (min-width: 444px) {\n  .Layout {\n    width: calc(444px - 18px);\n  }\n}\n\n@media (min-width: 768px) {\n  .Layout {\n    width: calc(768px - 18px);\n  }\n}\n\n@media (min-width: 992px) {\n  .Layout {\n    width: calc(992px - 22px);\n  }\n}\n\n@media (min-width: 1200px) {\n  .Layout {\n    width: calc(1200px - 30px);\n  }\n}\n", ""]);
+  exports.push([module.id, "/**\n * React Static Boilerplate\n * https://github.com/koistya/react-static-boilerplate\n * Copyright (c) Konstantin Tarkus (@koistya) | MIT license\n */\n\n/**\n * React Static Boilerplate\n * https://github.com/koistya/react-static-boilerplate\n * Copyright (c) Konstantin Tarkus (@koistya) | MIT license\n */\n\n/*\n * Scaffolding\n * -------------------------------------------------------------------------- */\n\n/*\n * Typography\n * -------------------------------------------------------------------------- */\n\n/*\n * Media queries breakpoints\n * -------------------------------------------------------------------------- */\n\nhtml, body {\n  margin: 0;\n  padding: 0;\n  background-color: #ffffff;\n  color: #000000;\n  font-family: 'San Francisco Display',sans-serif;\n}\n\n.Layout {\n  margin-left: 22px;\n}\n", ""]);
 
   // exports
 
@@ -1092,7 +1086,7 @@ module.exports =
 
 
   // module
-  exports.push([module.id, "/**\n * React Static Boilerplate\n * https://github.com/koistya/react-static-boilerplate\n * Copyright (c) Konstantin Tarkus (@koistya) | MIT license\n */\n\n/**\n * React Static Boilerplate\n * https://github.com/koistya/react-static-boilerplate\n * Copyright (c) Konstantin Tarkus (@koistya) | MIT license\n */\n\n/*\n * Scaffolding\n * -------------------------------------------------------------------------- */\n\n/*\n * Typography\n * -------------------------------------------------------------------------- */\n\n/*\n * Media queries breakpoints\n * -------------------------------------------------------------------------- */\n\n.Navigation {\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n  -webkit-flex-direction: row;\n      -ms-flex-direction: row;\n          flex-direction: row;\n  margin: 2em 0 3em 0;\n  list-style: none;\n  -webkit-box-pack: end;\n  -webkit-justify-content: flex-end;\n      -ms-flex-pack: end;\n          justify-content: flex-end;\n}\n\n.Navigation-item {\n  padding: 0 0em;\n}\n\n.Navigation-link {\n  padding: 0.5em 1em;\n  color: #00ccf1;\n  text-decoration: none;\n  cursor: pointer\n}\n\n.Navigation-link:hover {\n  border-bottom: 3px solid #00ccf1;\n  color: #000000;\n}\n", ""]);
+  exports.push([module.id, "/**\n * React Static Boilerplate\n * https://github.com/koistya/react-static-boilerplate\n * Copyright (c) Konstantin Tarkus (@koistya) | MIT license\n */\n\n/**\n * React Static Boilerplate\n * https://github.com/koistya/react-static-boilerplate\n * Copyright (c) Konstantin Tarkus (@koistya) | MIT license\n */\n\n/*\n * Scaffolding\n * -------------------------------------------------------------------------- */\n\n/*\n * Typography\n * -------------------------------------------------------------------------- */\n\n/*\n * Media queries breakpoints\n * -------------------------------------------------------------------------- */\n\n.Navigation {\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n  -webkit-flex-direction: row;\n      -ms-flex-direction: row;\n          flex-direction: row;\n  margin: 2em 0 3em 0;\n  list-style: none;\n  -webkit-box-pack: end;\n  -webkit-justify-content: flex-end;\n      -ms-flex-pack: end;\n          justify-content: flex-end;\n}\n\n.Navigation-item {\n  padding: 1 1em;\n}\n\n.Navigation-link {\n  padding: 0.5em 1em;\n  color: #00ccf1;\n  text-decoration: none;\n  cursor: pointer\n}\n\n.Navigation-link:hover {\n  border-bottom: 3px solid #00ccf1;\n  color: #000000;\n}\n", ""]);
 
   // exports
 
