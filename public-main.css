@@ -17,41 +17,6 @@ h2{
     margin: 0px;
 }
 
-html{
-    height: 100%;
-    background: #ff5e3a; /* Old browsers */
-}
-
-body{
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    position:relative;
-        -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background: #ffffff; /* Old browsers */
-}
-
-.outercontainer{
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    position:relative;
-    min-height: 500px;
-}
-
-.innercontainer{
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    transform: translate(0, -55%);
-    -webkit-transform: translate(0, -55%); /* Safari */
-}
-
 .appstore {
     position: relative;
     left:0;
