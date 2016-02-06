@@ -973,7 +973,7 @@ module.exports =
           _react2['default'].createElement(
             'h2',
             null,
-            'Builds and designs iOS apps :',
+            'Builds and designs iOS apps',
             _react2['default'].createElement('br', null),
             _react2['default'].createElement(
               'a',
