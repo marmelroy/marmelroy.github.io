@@ -74,7 +74,7 @@ h2{
     font-weight: 600;
 }
 
-.Navigation-link {
+a {
   padding: 0.5em 1em;
   color: :#00ccf1;
   text-decoration: none;
