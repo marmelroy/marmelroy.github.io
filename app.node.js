@@ -1006,11 +1006,30 @@ module.exports =
               _react2['default'].createElement(_reactRetinaImage2['default'], { src: 'dashpower.png', alt: 'Dash Power - Monitor iPhone\'s battery life' })
             ),
             _react2['default'].createElement('br', null),
-            'Runs Swift open source projects. ',
             _react2['default'].createElement('br', null),
-            'Speaks in conferences. ',
+            'Codes open source ',
+            _react2['default'].createElement(
+              'a',
+              { href: 'https://github.com/marmelroy/' },
+              'projects'
+            ),
+            '. ',
             _react2['default'].createElement('br', null),
-            'Writes on Medium. ',
+            'Speaks in ',
+            _react2['default'].createElement(
+              'a',
+              { href: 'https://github.com/marmelroy/Talks' },
+              'conferences'
+            ),
+            '. ',
+            _react2['default'].createElement('br', null),
+            'Writes on ',
+            _react2['default'].createElement(
+              'a',
+              { href: 'https://medium.com/swift-and-ios-writing' },
+              'Medium'
+            ),
+            '. ',
             _react2['default'].createElement('br', null),
             _react2['default'].createElement('br', null),
             'Say ',
