@@ -989,12 +989,6 @@ module.exports =
             _react2['default'].createElement(_reactLiteSpace2['default'], { width: '20' }),
             _react2['default'].createElement(
               'a',
-              { href: 'https://itunes.apple.com/app/bonjourbonjour/id451134020' },
-              _react2['default'].createElement(_reactRetinaImage2['default'], { src: 'bjrbjr.png', alt: 'BonjourBonjour' })
-            ),
-            _react2['default'].createElement(_reactLiteSpace2['default'], { width: '20' }),
-            _react2['default'].createElement(
-              'a',
               { href: 'http://spaceca.st' },
               _react2['default'].createElement(_reactRetinaImage2['default'], { src: 'spacecast.png', alt: 'Spacecast' })
             ),
@@ -1044,7 +1038,9 @@ module.exports =
               'hello'
             ),
             '.'
-          )
+          ),
+          _react2['default'].createElement('br', null),
+          _react2['default'].createElement('br', null)
         );
       }
     }]);
